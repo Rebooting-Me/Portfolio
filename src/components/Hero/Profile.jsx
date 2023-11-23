@@ -49,14 +49,14 @@ function Profile () {
             alignItems: "center",
           }}
         >
-          <a href="https://github.com/Rebooting-Me" target='#'>
+          <a className='scale-on-hover' href="https://github.com/Rebooting-Me" target='#'>
             <img
               style={{ width: "30px" }}
               src={Github}
               alt="GitHub"
             />
           </a>
-          <a href="https://www.linkedin.com/in/aditya-raj-sharma-/" target='#'>
+          <a className='scale-on-hover' href="https://www.linkedin.com/in/aditya-raj-sharma-/" target='#'>
             <img
               style={{ width: "30px" }}
               src={LinkedIn}

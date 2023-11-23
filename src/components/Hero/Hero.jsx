@@ -19,7 +19,7 @@ function Hero() {
           style={{
             position: "absolute",
             top: "35%",
-            left: "55%",
+            left: "50%",
             transform: "translate(-50%, -50%)",
             width: "40%",
           }}
