@@ -44,24 +44,24 @@ function Profile () {
         <div
           style={{
             display: "flex",
-            gap: '10px',
+            gap: "10px",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <a className='scale-on-hover' href="https://github.com/Rebooting-Me" target='#'>
-            <img
-              style={{ width: "30px" }}
-              src={Github}
-              alt="GitHub"
-            />
+          <a
+            className="scale-on-hover"
+            href="https://github.com/Rebooting-Me"
+            target="#"
+          >
+            <img style={{ width: "30px" }} src={Github} alt="GitHub" />
           </a>
-          <a className='scale-on-hover' href="https://www.linkedin.com/in/aditya-raj-sharma-/" target='#'>
-            <img
-              style={{ width: "30px" }}
-              src={LinkedIn}
-              alt="LinkedIn"
-            />
+          <a
+            className="scale-on-hover"
+            href="https://www.linkedin.com/in/aditya-raj-sharma-/"
+            target="#"
+          >
+            <img style={{ width: "30px" }} src={LinkedIn} alt="LinkedIn" />
           </a>
         </div>
       </div>
