@@ -118,7 +118,7 @@ const Content = ({date, post, company, desc}) => {
         >
           <h2
             id="post"
-            style={{ padding: "0", margin: "0", letterSpacing: "1.8px" }}
+            style={{ padding: "0", margin: "0", letterSpacing: "1.8px", color: "white" }}
           >
             {post}
           </h2>
