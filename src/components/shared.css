@@ -1,5 +1,7 @@
 .education {
     margin-top: 7em;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #edu{
@@ -22,4 +24,49 @@
     letter-spacing: 1.8px;
     margin: 0;
     padding: 0;
+}
+
+.experience {
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#exp {
+    font-family: Roboto Mono;
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+    margin: 0;
+    padding: 0;
+}
+
+.Content.slide-in {
+    animation: slide-in 0.5s forwards;
+}
+
+.Content.slide-out {
+    animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }

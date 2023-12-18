@@ -32,7 +32,7 @@ const Education = () => {
 
 const Card = ({ date, degree, school }) => {
   return (
-    <div style={{ display: "flex", gap:"1em", margin: "0em 0 0 5.95em" }}>
+    <div style={{ display: "flex", gap:"1em", margin: "0 0 0 6em" }}>
       <img src={Trigger} alt="trigger" style={{ alignSelf: "flex-start" }} />
       <div style={{ alignSelf: "flex-end", marginTop: "22px" }}>
         <p style={{ color: "#616F87" }}>{date}</p>

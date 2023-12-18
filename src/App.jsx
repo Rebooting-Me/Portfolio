@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './components/Hero/Hero';
 import PC from './assets/PC.svg'
 import Education from './components/Education';
+import Experience from './components/Experience';
 
 function App() {
 
@@ -11,8 +12,8 @@ function App() {
       <div
         id="line"
         style={{
-          borderLeft: "5.5px solid #4FAA41",
-          height: "100%",
+          borderLeft: "6px solid #4FAA41",
+          height: "200%",
           borderRadius: "5px",
           marginLeft: "6em",
           position: "absolute",
@@ -20,6 +21,7 @@ function App() {
         }}
        />
        <Education />
+       <Experience />
       <img id="pc" src={PC} alt="PC icon" />
     </>
   );
