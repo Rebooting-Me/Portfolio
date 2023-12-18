@@ -1,0 +1,23 @@
+.education {
+    margin-top: 7em;
+}
+
+#edu{
+    font-family: Roboto Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+    margin: 0;
+    padding: 0;
+}
+
+#degree {
+    /* font-size: 20px; */
+    width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    margin: 0;
+    padding: 0;
+}

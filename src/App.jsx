@@ -1,6 +1,7 @@
 import './App.css';
 import Hero from './components/Hero/Hero';
 import PC from './assets/PC.svg'
+import Education from './components/Education';
 
 function App() {
 
@@ -10,12 +11,15 @@ function App() {
       <div
         id="line"
         style={{
-          borderLeft: "5px solid #4FAA41",
-          height: "20em",
+          borderLeft: "5.5px solid #4FAA41",
+          height: "100%",
           borderRadius: "5px",
-          zIndex: "4",
+          marginLeft: "6em",
+          position: "absolute",
+          zIndex: "-4",
         }}
-      ></div>
+       />
+       <Education />
       <img id="pc" src={PC} alt="PC icon" />
     </>
   );
