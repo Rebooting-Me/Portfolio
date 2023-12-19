@@ -73,7 +73,7 @@ const Card = ({date}) => {
         <img src={Trigger} alt="trigger" style={{ alignSelf: "flex-start" }} />
         <div
           className="exp-card"
-          style={{ marginTop: "22px", display: "flex", gap: "2em" }}
+          style={{ marginTop: "22px", display: "flex", gap: "2em", alignItems: "center" }}
         >
           <Content
             date={currentContent.date}
@@ -82,20 +82,24 @@ const Card = ({date}) => {
             desc={currentContent.desc}
           />
           {isNext ? (
-            <img
-              style={{ cursor: "pointer" }}
-              src={Next}
-              alt="arrow icon"
-              onClick={handleClick}
-            />
+            <div style={{ display: "inline-block" }}>
+              <img
+                style={{ cursor: "pointer" }}
+                src={Next}
+                alt="arrow icon"
+                onClick={handleClick}
+              />
+            </div>
           ) : null}
           {isNext ? null : (
-            <img
-              style={{ cursor: "pointer", rotate: "180deg" }}
-              src={Next}
-              alt="arrow icon"
-              onClick={handleClick}
-            />
+            <div style={{ display: "inline-block" }}>
+              <img
+                style={{ cursor: "pointer", rotate: "180deg" }}
+                src={Next}
+                alt="arrow icon"
+                onClick={handleClick}
+              />
+            </div>
           )}
         </div>
       </div>
