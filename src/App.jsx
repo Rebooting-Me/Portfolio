@@ -2,7 +2,7 @@ import './App.css';
 import Hero from './components/Hero/Hero';
 import PC from './assets/PC.svg'
 import Education from './components/Education';
-import Experience from './components/Testing';
+import Experience from './components/Experience';
 
 function App() {
 
