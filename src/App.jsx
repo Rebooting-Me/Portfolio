@@ -10,18 +10,27 @@ function App() {
     <>
       <Hero />
       <div
-        id="line"
         style={{
-          borderLeft: "6px solid #4FAA41",
-          height: "200%",
-          borderRadius: "5px",
-          marginLeft: "6em",
-          position: "absolute",
-          zIndex: "-4",
+          display: "flex",
+          position: "relative",
+          marginLeft: "7em",
         }}
-       />
-       <Education />
-       <Experience />
+      >
+        <div
+          id="line"
+          style={{
+            borderLeft: "6px solid #4FAA41",
+            borderRadius: "5px",
+            zIndex: "-4",
+          }}
+        />
+        <div style={{ flex: 1 }}>
+          <Education />
+          <Experience />
+          {/* Add more components here */}
+          <div style={{ height: "4em" }} />
+        </div>
+      </div>
       <img id="pc" src={PC} alt="PC icon" />
     </>
   );

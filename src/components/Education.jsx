@@ -10,7 +10,7 @@ const Education = () => {
             display: "flex",
             alignItems: "center",
             gap: "2em",
-            marginLeft: "3.5em",
+            // marginLeft: "3.5em",
           }}
         >
           <img src={Eduicon} alt="education icon" />
@@ -22,7 +22,7 @@ const Education = () => {
           school="University of California, San Diego"
         />
         <Card
-          date="2027 - 2021"
+          date="2017 - 2021"
           degree="Bachelors in Computer Science and Engineering"
           school="Oriental Institute of Science and Technology"
         />
@@ -32,7 +32,7 @@ const Education = () => {
 
 const Card = ({ date, degree, school }) => {
   return (
-    <div style={{ display: "flex", gap:"1em", margin: "0 0 0 6em" }}>
+    <div style={{ display: "flex", gap:"1em", margin: "0 0 0 2.5em" }}>
       <img src={Trigger} alt="trigger" style={{ alignSelf: "flex-start" }} />
       <div style={{ alignSelf: "flex-end", marginTop: "22px" }}>
         <p style={{ color: "#616F87" }}>{date}</p>

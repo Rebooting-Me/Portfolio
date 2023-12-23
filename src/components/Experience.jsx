@@ -10,7 +10,6 @@ const Experience = () => {
           display: "flex",
           alignItems: "center",
           gap: "2em",
-          marginLeft: "3.5em",
         }}
       >
         <img src={Expicon} alt="experience icon" />
@@ -23,7 +22,7 @@ const Experience = () => {
         desc="Handled mostly the DevOps work for the ITS department at UC San Diego including Requirements Gathering, writing POC's, applying Agile methodology to devise UI/UX and Product Architectures and releasing weekly monitored MySQL reports to reduce system vulnerabilities"
       />
       <Card
-        date="05/2021 - 07/2023"
+        date="05/2021 - 07/2021"
         post="Software Engineer Intern"
         company="Compport"
         desc="I assessed and enhanced the operational efficiency of the company's software solutions. I conducted system analysis, recommended policy changes, and achieved a 40% productivity boost through clear code and documentation. My contributions played a key role in accomplishing engineering tasks with high efficiency."
@@ -38,7 +37,7 @@ const Card = ({ date, post, company, desc }) => {
       style={{
         display: "flex",
         gap: "1em",
-        margin: "0 0 0 6em",
+        margin: "0 0 0 2.5em",
         padding: "0",
       }}
     >
